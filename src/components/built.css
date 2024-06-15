@@ -34,16 +34,20 @@
     gap: 60px;
 }
 .same-1{
-    width: 150px;
-    height: 100px;
+    max-width: 150px;
+    width: 100%;
+    min-height: 100px;
+    height: fit-content;
     border-radius: 10px;
     background-color: orange;
     mix-blend-mode: luminosity;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pizza{
-    width: 64px;
-    height: 79px;
-    margin: 10px 43px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
 }
 .slide-2{
     max-width: 690px;

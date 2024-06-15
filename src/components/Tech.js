@@ -20,11 +20,11 @@ function Tech() {
                     <h3 className='build-scale'>We Build Scalable Solutions</h3>
                 </div>
                 <div className="part-1-2">
-                    <ul>
+                    <ul className='custom-list'>
                         <li>Tech Architure</li>
                         <li>AI Solutions</li>
                         <li>Mobile and Web Engineering</li>
-                        <li>Analytics</li>
+                        <li>Analytics and Business Dashboards</li>
                     </ul>
                 </div>
             </div>
@@ -34,7 +34,7 @@ function Tech() {
                     <p className='build-scale'>We Craft Intuitive User Experiences</p>
                 </div>
                 <div className="part-1-2">
-                    <ul>
+                    <ul className='custom-list'>
                         <li>Research</li>
                         <li>Wireframing and Design</li>
                         <li>Prototyping</li>

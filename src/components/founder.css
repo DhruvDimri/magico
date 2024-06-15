@@ -28,9 +28,11 @@
 }
 .founder-1{
     background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
 }
 .founder-2{
     background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
 }
 .founder-square{
     width: 100%;
@@ -38,6 +40,7 @@
     height: 283.25px;
     border-radius: 10px;
     margin-bottom: 15px;
+    box-shadow: 1px 1px 7px rgb(51, 49, 49);
 }
 .flex-positioning{
     display: flex;
@@ -60,6 +63,7 @@
     border-radius: 10px;
     margin-left: 60px;
     margin-bottom: 15px;
+    box-shadow: 1px 1px 7px rgb(51, 49, 49);
 }
 .founder-square-3{
     width: 100%;
