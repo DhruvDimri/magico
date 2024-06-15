@@ -61,6 +61,7 @@
     width: 100%;
     height: fit-content;
     max-width: 160px;
+    margin: auto;
 }
 .footer-blog-1-2{
     display: flex;
@@ -123,7 +124,7 @@
         height: fit-content;
         max-width: 261px;
         min-height: 140px;
-        background-color: sienna;
+
         margin-top: 10px;
     }
     .footer-blog{

@@ -25,13 +25,13 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-blog-1">
-                <div className="footer-blog-1-1">Product</div>
+                <div className="footer-blog-1-1">Remaining</div>
                     <div className="footer-blog-1-2">
-                        <div className="footer-feature">Features</div>
-                        <div className="footer-feature">Solutions</div>
-                        <div className="footer-feature">Pricing</div>
-                        <div className="footer-feature">Tutorials</div>
-                        <div className="footer-feature">Updates</div>
+                        <div className="footer-feature">Blog</div>
+                        <div className="footer-feature">Newsletter</div>
+                        <div className="footer-feature">Help Center</div>
+                        <div className="footer-feature">Careers</div>
+                        <div className="footer-feature">Support</div>
                     </div>
                 </div>
             </div>
