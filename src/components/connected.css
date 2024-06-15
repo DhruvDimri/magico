@@ -1,0 +1,129 @@
+.connect{
+    width: 100%;
+    height: fit-content;
+    max-width: 1440px;
+    min-height: 459px;
+ 
+    margin-top: 40px;
+    padding-top: 55px;
+}
+.connect-wrapper{
+    width: 100%;
+    max-width: 1280px;
+    height: fit-content;
+    min-height: 349px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 30px;
+    margin: auto;
+    padding-top: 40px;
+}
+.connect-head{
+    width: 100%;
+    max-width: 1050px;
+    height: fit-content;
+    min-height: 63px;
+ 
+    margin: auto;
+    
+}
+.connect-head h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+    color: rgba(39, 39, 39, 1);
+    text-align: center;
+}
+.connect-design{
+    color: rgba(83, 140, 255, 1);
+}
+.connect-form{
+    width: 100%;
+    max-width: 1180px;
+    height: fit-content;
+    min-height: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.connect-form-1{
+    width: 100%;
+    max-width: 280px;
+    height: fit-content;
+    min-height: 56px;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+    margin-bottom: 5px;
+}
+.connect-form-1-inner{
+    margin: 16px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.connect-form-2{
+    width: 100%;
+    max-width: 280px;
+    height: fit-content;
+    min-height: 58.1px;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+    margin-bottom: 5px;
+}
+.connect-form-2-inner{
+    margin: 16px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.connect-submit-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 80px;
+    margin: auto;
+}
+.connect-submit{
+    width: 100%;
+    height: fit-content;
+    max-width: 190px;
+    min-height: 56px;
+    background-color: rgba(15, 15, 15, 1);
+    border-radius: 28px;
+    margin: auto;
+    margin-top: 44px;
+    padding-top: 17px;
+}
+.connect-submit-text{
+    color: rgba(255, 255, 255, 1);
+}
+@media (max-width: 560px) {
+    .connect-form{
+        width: 100%;
+        max-width: 1180px;
+        height: fit-content;
+        min-height: 56px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      
+        margin-top: 55px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .connect-wrapper{
+        width: 100%;
+        max-width: 1280px;
+        height: fit-content;
+        min-height: 349px;
+        background-color: rgba(249, 249, 249, 1);
+        border-radius: 30px;
+        margin: auto;
+        padding-bottom: 10px;
+        padding-top: 40px;
+    }
+}

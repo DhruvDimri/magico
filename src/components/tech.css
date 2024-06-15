@@ -1,0 +1,165 @@
+.tech{
+    max-width: 1440px;
+    width: 100%;
+    height: fit-content;
+    min-height: 1282px;
+    margin-top: 40px;
+}
+.tech-heading-1{
+    width: 100%;
+    max-width: 1041px;
+    height: fit-content;
+    min-height: 73px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+}
+.main-one{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+}
+.main-two{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 63px;
+    color: rgba(83, 140, 255, 1);
+}
+.part-1{
+    max-width: 570px;
+    width: 100%;
+    height: fit-content;
+    min-height: 430px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 30px;
+}
+.part-2{
+    max-width: 570px;
+    width: 100%;
+    height: fit-content;
+    min-height: 430px;
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 30px;
+}
+.partition-1{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 73px;
+    flex-wrap: wrap;
+}
+.partition-2{
+    width: 100%;
+    max-width: 1200px;
+    height: fit-content;
+    min-height: 588px;
+    background-color: rgba(249, 249, 249, 1);
+    margin: auto ;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+.part-1-1{
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.product-dev{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.build-scale{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.part-1-2{
+    width: fit-content;
+    margin-top: 54px;
+    margin-left: 50px;
+}
+.part-1-2 ul li{
+    font-size: 24px;
+    font-weight: 400;
+    /* line-height: 27px; */
+}
+
+.partition-2-heading{
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.software-design{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgba(39, 39, 39, 1);
+
+}
+.products-design{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: rgba(122, 122, 122, 1);
+}
+.partition-2-text{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin: auto;
+
+}
+.gratify{
+    max-width: 300px;
+    min-height: 381px;
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 31px;
+}
+.esto{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32.2px;
+    color: rgba(15, 15, 15, 1);
+}
+.pyzo{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    color: rgba(15, 15, 15, 1);
+}
+@media (max-width: 1206px) {
+    .gratify{
+        max-width: 300px;
+        min-height: 381px;
+        width: 100%;
+        height: fit-content;
+        
+        margin-top: 31px;
+        margin-left: 40px;
+    }
+    .partition-2-heading{
+        padding-top: 50px;
+        margin-left: 30px;
+        
+    }
+}
+@media (max-width: 710px) {
+    .partition-2-text{
+        width: 100%;
+        max-width: 1100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin: auto;
+        
+    }
+}
+
+
+
+
