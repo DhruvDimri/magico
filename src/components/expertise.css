@@ -65,18 +65,21 @@
     font-weight: 600;
     line-height: 32px;
     color: rgba(39, 39, 39, 1);
+    margin-left: 10px;
 }
 .priority-2{
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     color: rgba(122, 122, 122, 1);
+    margin-left: 10px;
 }
 .akshat{
     font-size: 18px;
     font-weight: 400;
     line-height: 22.68px;
     color: rgba(15, 15, 15, 1);
+    margin-left: 10px;
 }
 .akshat-time{
     font-size: 18px;
@@ -99,6 +102,7 @@
    line-height: 25.63px;
    letter-spacing: 2%;
    color: rgba(122, 122, 122, 1);
+   margin-left: 10px;
 }
 .peter{
     font-size: 18px;
@@ -116,6 +120,7 @@
     height: fit-content;
     max-width: 583px;
     min-height: 64px;
+    margin-left: 10px;
 }
 .expertise-body{
     display: flex;
@@ -129,6 +134,7 @@
 }
 .expertise-body-2{
     margin-top: 15px;
+    /* margin-left: 10px; */
 }
 .expertise-same{
     width: 100%;
@@ -136,4 +142,10 @@
     height: fit-content;
     min-height: 140px;
     border-bottom: 1px solid rgba(212, 214, 216, 1);
+}
+@media (max-width: 633px) {
+    .expertise-body-2{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
 }

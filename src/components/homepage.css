@@ -3,5 +3,17 @@
     width: 100%;
     min-height: 960px;
     height: fit-content;
-    
+    /* background-color: rgba(247, 247, 247, 1); */
+    background-color: rgba(15, 15, 15, 1);
+    position: relative;
+    overflow: hidden;
+}
+.anim-wrapper{
+   background-color: rgba(247, 247, 247, 1);
+   position: absolute;
+   width: 0px;
+   height: 0px;
+   border-top-right-radius: 70%;
+   border-bottom-left-radius: 60%;
+   border-bottom-right-radius: 30%;
 }

@@ -1,16 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./tech.css"
 import gratify from "../images/Group 36959.png"
 import esto from "../images/esto.png"
 import pyzo from "../images/pyzo.png"
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
 
 function Tech() {
+    useGSAP(() => {
+        gsap.from(".main-two", {
+            opacity: "0",
+            duration: 2,
+            repeat: -1
+        })
+    })
+
+    
   return (
     <div className="tech container-fluid gx-0">
         <div className="tech-heading-1">
             <span className='main-one'>We are a one-stop shop for all things </span>
-            <span className='main-two'>Tech</span>
+            <span className='main-two'>tech</span>
         </div>
 
         <div className="partition-1">

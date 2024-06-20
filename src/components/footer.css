@@ -1,18 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: fit-content;
+}
 .footer{
     width: 100%;
     max-width: 1440px;
     height: fit-content;
     min-height: 466px;
-
     margin-top: 40px;
-    padding-top: 60px;
+    /* padding-top: 60px; */
+   
 }
 .footer-wrapper{
     width: 100%;
     height: fit-content;
     max-width: 1264px;
     min-height: 259px;
- 
+    
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -24,14 +30,14 @@
     height: fit-content;
     max-width: 261px;
     min-height: 140px;
- 
+    
 }
 .footer-blog{
     width: 100%;
     height: fit-content;
     max-width: 359px;
     min-height: 233px;
-
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -41,7 +47,7 @@
     height: fit-content;
     max-width: 405px;
     min-height: 105px;
-  
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -56,18 +62,21 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+    
 }
 .footer-blog-1{
     width: 100%;
     height: fit-content;
     max-width: 160px;
     margin: auto;
+    
 }
 .footer-blog-1-2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 16px;
+    
 }
 .footer-blog-1-1{
     margin-bottom: 27px;
@@ -75,20 +84,21 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 21.94px;
-
+    
 }
 .footer-feature{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: rgba(15, 15, 15, 1);
-   
+    
 }
 .footer-users-content{
     font-size: 25px;
     font-weight: 700;
     line-height: 30.48px;
     color: rgba(58, 102, 255, 1);
+    
 }
 .footer-users-submit{
     width: 100%;
@@ -98,12 +108,14 @@
     background-color: rgba(15, 15, 15, 1);
     border-radius: 28px;
     padding-top: 18px;
+    
 }
 .footer-users-submit-wrapper{
     display: flex;
     justify-content: center;
     gap: 14px;
     color: rgba(255, 255, 255, 1);
+    
 }
 .footer-copyright{
     color: rgba(15, 15, 15, 1);
@@ -117,15 +129,16 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    
 }
+
 @media (max-width: 620px) {
     .footer-about{
         width: 100%;
         height: fit-content;
         max-width: 261px;
         min-height: 140px;
-
-        margin-top: 10px;
+       
     }
     .footer-blog{
         width: 100%;
@@ -143,20 +156,20 @@
         height: fit-content;
         max-width: 405px;
         min-height: 105px;
-   
+       
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 30px;
         margin-top: 10px;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
     }
     .footer-wrapper{
         width: 100%;
         height: fit-content;
         max-width: 1264px;
         min-height: 259px;
-     
+       
         margin: auto;
         display: flex;
         flex-wrap: wrap;
@@ -170,13 +183,14 @@
         min-height: 56px;
         background-color: rgba(15, 15, 15, 1);
         border-radius: 28px;
-        padding-top: 18px;
+        /* padding-top: 18px; */
         margin: auto;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
+       
     }
     .footer-copyright{
         color: rgba(15, 15, 15, 1);
-        margin-top: 40px;
+        /* margin-top: 40px; */
         margin-left: auto;
         margin-right: auto;
         width: 100%;
@@ -186,7 +200,7 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
-        padding-bottom: 50px;
-        
+       
+        margin-bottom: 35px;
     }
 }

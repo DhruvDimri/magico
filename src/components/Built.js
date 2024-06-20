@@ -11,10 +11,34 @@ import pay from "../images/pay.png"
 import rixil from "../images/rixil.png"
 import hdfc from "../images/hdfc.png"
 import brik from "../images/brik.png"
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 
 
 function Built() {
+  useGSAP(() => {
+    gsap.to(".same-1", {
+      backgroundColor: "transparent",
+      mixBlendMode: "normal",
+      duration: 1,
+      scrollTrigger: {
+        trigger: ".same-1",
+        scroller: "body",
+        start: "top 25%"
+      }
+    })
+    gsap.to(".same-2", {
+      backgroundColor: "transparent",
+      mixBlendMode: "normal",
+      duration: 1,
+      scrollTrigger: {
+        trigger: ".same-1",
+        scroller: "body",
+        start: "top 25%"
+      }
+    })
+  })
   return (
     <div className="container-fluid gx-0 built">
       <div className="main-heading">

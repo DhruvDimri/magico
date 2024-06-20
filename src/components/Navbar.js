@@ -2,8 +2,19 @@ import React from "react";
 import "./navbar.css"
 import grp57 from "../images/Group 57.png"
 import map from "../images/Map Arrow Up.png"
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 function Navbar() {
+
+  useGSAP(() => {
+    gsap.from(".navbar-wrapper",{
+      height: "0px",
+      duration: 2.6,
+      delay: 1,
+      opacity: "0"
+    })
+  })
   return (
     <>
     <div className="container-fluid gx-0 navbar-wrapper">
@@ -49,13 +60,13 @@ function Navbar() {
                 <a className="btn-navbar" aria-current="page" href="/">
                   CTA
                 </a>
-                <img src={map} alt="arrow" />
+                <img src={map} alt="arrow"/>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      </div>
+    </div>
     </>
   );
 }

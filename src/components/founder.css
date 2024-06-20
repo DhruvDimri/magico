@@ -8,16 +8,18 @@
     padding: 60.99px 0px;
     background-color: rgba(249, 249, 249, 1);
     border-radius: 30px;
+    position: relative;
+    margin-bottom: 40px;
 }
-.founder-wrapper{
+/* .founder-wrapper{
     width: 100%;
     margin: auto;
     text-align: center;
-}
-.row-wrapper{
+} */
+/* .row-wrapper{
     width: 100%;
     margin: auto;
-}
+} */
 .founder-1, .founder-2{
     max-width: 1200px;
     width: 100%;
@@ -33,6 +35,11 @@
 .founder-2{
     background-color: rgba(255, 255, 255, 1);
     border-radius: 30px;
+    position: absolute;
+    top: 750px;
+    left: 120px;
+    opacity: 0;
+    height: fit-content;
 }
 .founder-square{
     width: 100%;
@@ -41,12 +48,16 @@
     border-radius: 10px;
     margin-bottom: 15px;
     box-shadow: 1px 1px 7px rgb(51, 49, 49);
+    position: relative;
+    
 }
 .flex-positioning{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
+    /* background-color: aqua; */
+    position: relative;
 }
 .for-founder{
     padding-left: 60px;
@@ -64,6 +75,7 @@
     margin-left: 60px;
     margin-bottom: 15px;
     box-shadow: 1px 1px 7px rgb(51, 49, 49);
+    position: relative;
 }
 .founder-square-3{
     width: 100%;
@@ -71,12 +83,104 @@
     height: 330px;
     border-radius: 10px;
     margin-bottom: 15px;
+    position: relative;
 }
 .flex-position{
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
     margin-top: 30px;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+.bulb-anim{
+    position: absolute;
+    bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    left: 125px;
+}
+.tablet-anim{
+    position: absolute;
+    bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    left: 75px;
+}
+.earth-anim{
+    position: absolute;
+    bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    left: 80px;
+}
+.founder-sq-anim{
+    opacity: 1;
+}
+.founder-square-anim{
+    position: absolute;
+    background-color:  rgb(53, 51, 51);
+    max-width: 1100px;
+    width: 100%;
+    min-height: 298px;
+    height: 100%;
+    top: 0px;
+    opacity: 1;
+}
+.founder-square-anim-p{
+   width: 100%;
+   height: fit-content;
+   max-width: 850px;
+   min-height: 200px;
+   font-size: 52px;
+    font-weight: 600;
+    text-align: start;
+    margin: auto;
+    margin-top: 65px;
+    color: rgba(255, 255, 255, 1);
+}
+.handshake-anim{
+    position: absolute;
+    bottom: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    left: 100px;
+}
+.graph-anim{
+    position: absolute;
+    bottom: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    left: 100px;
+}
+.founder-square2-anim{
+    position: absolute;
+    background-color:  rgb(53, 51, 51);
+    max-width: 1100px;
+    width: 100%;
+    min-height: 298px;
+    height: 100%;
+    top: 0px;
+    opacity: 1;
+    left: 50px;
+    
+}
+.founder-square2-anim-p{
+   width: 100%;
+   height: fit-content;
+   max-width: 850px;
+   min-height: 200px;
+   font-size: 52px;
+    font-weight: 600;
+    text-align: start;
+    margin: auto;
+    margin-top: 65px;
+    color: rgba(255, 255, 255, 1);
 }
 
 @media (max-width: 786px) {
@@ -104,4 +208,49 @@
         margin-top: 30px;
     }
 }
+@media (max-width: 1097px) {
+    .founder-square2-anim{
+        position: absolute;
+        background-color:  rgb(53, 51, 51);
+        max-width: 1100px;
+        width: 100%;
+        min-height: 298px;
+        height: 100%;
+        top: 0px;
+        opacity: 1;
+        left: 0px;
+        
+    }
+}
+@media (max-width: 1340px) {
+    .founder-2{
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 30px;
+        position: absolute;
+        top: 750px;
+        left: 69px;
+        opacity: 0;
+    }
+}
+@media (max-width: 1235px) {
+    .founder-2{
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 30px;
+        position: absolute;
+        top: 750px;
+        left: 17px;
+        opacity: 0;
+    }
+}
+@media (max-width: 1095px) {
+    .founder-2{
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 30px;
+        position: absolute;
+        top: 750px;
+        left: 0px;
+        opacity: 0;
+    }
+}
+
 

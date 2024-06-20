@@ -38,46 +38,45 @@
 }
 .connect-form{
     width: 100%;
-    max-width: 1180px;
+    max-width: 1180px; 
     height: fit-content;
-    min-height: 56px;
+    /* min-height: 56px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  
     margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
+    /* background-color: aqua; */
 }
 .connect-form-1{
-    width: 100%;
-    max-width: 280px;
+    /* width: 100%; */
+    /* max-width: 280px; */
     height: fit-content;
+    /* min-height: 56px; */
+    background-color: rgba(255, 255, 255, 1);
+    /* align-items: center; */
+    /* margin-bottom: 5px; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.want{
+    max-width: 164px;
+    width: 100%;
+    height: fit-content;
+    /* min-height: 56px; */
+}
+.want-down{
+   margin-top: 15px;
+    height: 25px;
+}
+input{
     min-height: 56px;
-    background-color: rgba(255, 255, 255, 1);
-    align-items: center;
     margin-bottom: 5px;
-}
-.connect-form-1-inner{
-    margin: 16px 14px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.connect-form-2{
-    width: 100%;
-    max-width: 280px;
-    height: fit-content;
-    min-height: 58.1px;
-    background-color: rgba(255, 255, 255, 1);
-    align-items: center;
-    margin-bottom: 5px;
-}
-.connect-form-2-inner{
-    margin: 16px 14px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    border: none;
+    outline: none;
+    padding-left: 5px;
 }
 .connect-submit-wrapper{
     display: flex;
@@ -101,19 +100,19 @@
 .connect-submit-text{
     color: rgba(255, 255, 255, 1);
 }
-@media (max-width: 560px) {
+@media (max-width: 580px) {
     .connect-form{
         width: 100%;
         max-width: 1180px;
         height: fit-content;
-        min-height: 56px;
+        /* min-height: 29.2px; */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-      
-        margin-top: 55px;
-        margin-left: auto;
-        margin-right: auto;
+        /* margin-top: 55px;
+        margin-left: 10px; */
+        margin-right: 10px;
+        gap: 20px;
     }
     .connect-wrapper{
         width: 100%;

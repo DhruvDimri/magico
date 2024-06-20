@@ -47,6 +47,10 @@
     border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 30px;
 }
+.tech-boxes:hover{
+    background-color: black;
+    color: rgba(249, 249, 249, 1);
+}
 .box-1-wrapper{
     max-width: 400px;
     min-height: 440px;
@@ -59,6 +63,9 @@
     background-color: rgb(46, 44, 44);
     color: rgba(255, 255, 255, 1);
     border-radius: 30px;
+}
+.box-1-wrapper:hover{
+    background-color: black;
 }
 .tech-content-heading{
     font-size: 32px;
@@ -88,6 +95,10 @@
     height: 170px;
    margin: 80px 66px 230px 40px;
 }
+/* .box-3-wrapper:hover{
+    background-color: black;
+    color: white;
+} */
 .tech-content-3{
     width: 171px;
     height: 80px;
